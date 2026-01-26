@@ -233,12 +233,11 @@ footer {
   .product-left{
     width: 100%;
     align-items: center;
-    padding: 30px 20px;
+    text-align: center;
+    padding: 40px 20px;
     border-radius: 0 0 20px 20px;
     background-size: cover;
     background-position: center;
-    background-color: #fff;
-    
   }
   
   .product-split {
@@ -261,8 +260,11 @@ footer {
   }
 
   .product-logo {
-    width: 100px;
+    width: 160px;
+    max-width: 70%;
     height: auto;
+    display: block;
+    margin: 0 auto 20px;
   }
 
   .location-section iframe {
@@ -271,6 +273,7 @@ footer {
 }
 
 }
+
 
 
 
