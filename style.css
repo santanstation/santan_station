@@ -266,7 +266,19 @@ footer {
     padding: 0;
   }
 
+  .howto-box {
+  background-color: #f3ede2;   /* sama macam Waktu Operasi */
+  border-radius: 20px;
+
+  max-width: 1200px;
+  margin: 40px auto;
+
+  padding: 50px 30px;
+  text-align: center;
 }
+
+}
+
 
 
 
