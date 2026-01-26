@@ -240,11 +240,9 @@ footer {
   }
   
   .product-split {
+    flex-direction: column;
     margin: 20px auto;
     width: calc(100% - 40px) ; 
-  }
-
-  .product-split {
     padding-left: 0;
     padding-right: 0;
   }
@@ -268,6 +266,7 @@ footer {
 }
 
 }
+
 
 
 
