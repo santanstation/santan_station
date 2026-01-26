@@ -233,9 +233,9 @@ footer {
   .product-left{
     width: 100%;
     align-items: center;
-    padding: 20px 40px;
+    padding: 30px 20px;
     border-radius: 0 0 20px 20px;
-    background-size: auto;
+    background-size: cover;
     background-position: center;
     background-color: #fff;
     
@@ -248,12 +248,16 @@ footer {
     padding-right: 0;
   }
 
-  .product-right p {
+  .product-right {
     width: 100%;
     text-align: center;
-    align-items: center;
-    padding: 40px 20px;
-    border-radius: 20px 0 0 20px;
+    padding: 30px 20px;
+    border-radius: 20px;
+  }
+
+  .product-right {
+    line-height: 1.4;
+    margin-bottom: 12px;
   }
 
   .product-logo {
@@ -267,6 +271,7 @@ footer {
 }
 
 }
+
 
 
 
