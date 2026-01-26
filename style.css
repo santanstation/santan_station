@@ -139,7 +139,7 @@ footer {
   justify-content: center;
   align-items: center;
 
-  color: #3b2f24; /* coconut shell text */
+  color: #1b1916; /* coconut shell text */
 }
 
 .product-right h2 {
@@ -165,12 +165,12 @@ footer {
 }
 
 .howto-section h2 {
-  color: #5a3e2b;
+  color: #1b1916;
   margin-bottom: 10px;
 }
 
 .howto-subtitle {
-  color: #7a5a44;
+  color: #1b1916;
   margin-bottom: 40px;
   font-size: 16px;
 }
@@ -216,12 +216,12 @@ footer {
 }
 
 .location-section h2 {
-  color: #5a3e2b;
+  color: #1b1916;
   margin-bottom: 15px;
 }
 
 .location-section p {
-  color: #7a5a44;
+  color: #1b1916;
   margin-bottom: 20px;
   font-size: 16px;
 }
@@ -278,6 +278,7 @@ footer {
 }
 
 }
+
 
 
 
