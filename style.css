@@ -230,6 +230,11 @@ footer {
 
 /* MOBILE RESPONSIVE */
 @media (max-width: 768px) {
+  .product {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
   .product-left{
     border-radius: 20px 20px 0 0;
   }
@@ -239,8 +244,8 @@ footer {
   }
   
   .product-split {
-    flex-direction: column;
     margin: 20px auto;
+    width: calc(100% - 40px) ; 
   }
 
   .product-split {
@@ -272,6 +277,7 @@ footer {
 }
 
 }
+
 
 
 
