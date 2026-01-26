@@ -230,6 +230,15 @@ footer {
 
 /* MOBILE RESPONSIVE */
 @media (max-width: 768px) {
+
+  .product-left {
+    display: none !important;
+  }
+
+  .product-split {
+    flex-direction: column;
+  }
+
   .product-right {
     width: 100%;
     max-width: 100%;
@@ -237,12 +246,14 @@ footer {
 
   .product-right p {
     padding: 20px;
-    border-radius: 0 0 20px 20px; /* bawah */
-    text-align: center;
+    border-radius: 20px;
     margin: 0;
+    box-shadow: 0 10px 25px
+  rgba(0,0,0,0.08);
   }
 
 }
+
 
 
 
