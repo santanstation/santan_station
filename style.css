@@ -232,7 +232,7 @@ footer {
 @media (max-width: 768px) {
   .product-left{
     border-radius: 20px 0 0 20px;
-    min-height: 300px
+    min-height: 260px
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: center;
@@ -242,12 +242,11 @@ footer {
   .product-split {
     flex-direction: column;
     margin: 20px auto;
-    width: calc(100% - 40px) ; 
     padding-left: 0;
     padding-right: 0;
   }
 
-  .product-right {
+  .product-right p {
     width: 100%;
     text-align: center;
     align-items: center;
@@ -266,6 +265,7 @@ footer {
 }
 
 }
+
 
 
 
