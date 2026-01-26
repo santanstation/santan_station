@@ -237,10 +237,10 @@ footer {
   
   .product-left{
     border-radius: 20px 0 0 20px;
-  }
-
-  .product-right{
-    border-radius: 20px 0 0 20px;
+    min-height: 260px
+    background-size: contain;
+    background-position: center;
+    background-color: #fff;
   }
   
   .product-split {
@@ -253,17 +253,12 @@ footer {
     padding-right: 0;
   }
 
-    
-  .product-left {
-    min-height: 300px
-  }
-  
   .product-right {
     width: 100%;
     text-align: center;
     align-items: center;
     padding: 40px 20px;
-    border-radius: 0 0 20px 20px;
+    border-radius: 20px 0 0 20px;
   }
 
   .product-logo {
@@ -277,6 +272,7 @@ footer {
 }
 
 }
+
 
 
 
