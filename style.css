@@ -158,17 +158,6 @@ footer {
   font-weight: bold;
 }
 
-.location-section {
-  padding: 50px 20px;
-  background: #fffaf3; /* same soft color theme */
-  text-align: center;
-}
-
-.location-section h2 {
-  margin-bottom: 20px;
-  color: #5a3e2b;
-}
-
 .howto-section {
   padding: 60px 20px;
   background: #fdf6ee;
@@ -220,6 +209,24 @@ footer {
   margin-bottom: 12px;
 }
 
+.location-section {
+  padding: 50px 20px;
+  background: #fffaf3; /* warna lembut selari website */
+  text-align: center;
+}
+
+.location-section h2 {
+  color: #5a3e2b;
+  margin-bottom: 15px;
+}
+
+.location-section p {
+  color: #7a5a44;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+
 
 /* MOBILE RESPONSIVE */
 @media (max-width: 768px) {
@@ -259,6 +266,7 @@ footer {
 }
 
 }
+
 
 
 
