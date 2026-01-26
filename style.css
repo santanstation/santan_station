@@ -240,9 +240,15 @@ footer {
   
   .product-split {
     flex-direction: column;
-    margin: 20px;
+    margin: 20px auto;
   }
 
+  .product-split {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+    
   .product-left {
     min-height: 300px
   }
@@ -266,6 +272,7 @@ footer {
 }
 
 }
+
 
 
 
