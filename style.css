@@ -158,6 +158,18 @@ footer {
   font-weight: bold;
 }
 
+.location-section {
+  padding: 50px 20px;
+  background: #fffaf3; /* same soft color theme */
+  text-align: center;
+}
+
+.location-section h2 {
+  margin-bottom: 20px;
+  color: #5a3e2b;
+}
+
+
 
 /* MOBILE RESPONSIVE */
 @media (max-width: 768px) {
@@ -191,3 +203,4 @@ footer {
     height: auto;
   }
 }
+
