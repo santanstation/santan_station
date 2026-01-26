@@ -233,7 +233,7 @@ footer {
   .product-left{
     width: 100%;
     align-items: center;
-    padding: 40px 20px;
+    padding: 20px 40px;
     border-radius: 0 0 20px 20px;
     background-size: auto;
     background-position: center;
@@ -267,6 +267,7 @@ footer {
 }
 
 }
+
 
 
 
