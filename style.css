@@ -230,45 +230,35 @@ footer {
 
 /* MOBILE RESPONSIVE */
 @media (max-width: 768px) {
-  .product-left{
-    height: auto;
-    overflow: visible;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin-bottom: -20px;
-    z-index: 2;
-  }
-  
+
   .product-split {
-    margin: 0;
-    margin-bottom: 20px;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 0;
   }
 
-  .product-right {
-    margin-top: 0;
+  .product-left {
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
   }
 
-  .product-right p:first-child {
-    margin-top: 10px;
-  }
-  
-  .product-right h2 {
-    margin-top: 0;
+  .product-right p {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
   }
 
   .product-logo {
     width: 160px;
+    max-width: 70%;
     height: auto;
-    max-width: 70%; 
-    
-    display: block;
-    margin: 0 auto;
   }
-
-  .location-section iframe {
-  max-width: 900px;
-  width: 100%;
-}
 
 }
 
