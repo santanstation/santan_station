@@ -229,28 +229,46 @@ footer {
 
 
 /* MOBILE RESPONSIVE */
+/* MOBILE RESPONSIVE */
 @media (max-width: 768px) {
 
+  /* hide image kiri */
   .product-left {
     display: none !important;
   }
 
   .product-split {
     flex-direction: column;
-  }
-
-  .product-right {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .product-right p {
-    padding: 20px;
-    border-radius: 20px;
+    background: transparent; /* buang background luar */
     margin: 0;
   }
 
+  .product-right {
+    background-color: #f3ede2;   /* SAMA macam #about */
+    color: #1b1916;
+
+    border-radius: 20px;
+    padding: 40px 20px;
+
+    margin: 40px auto;           /* center macam Tentang Kami */
+    max-width: 1200px;           /* ikut section atas */
+    width: calc(100% - 40px);    /* bagi ruang kiri kanan */
+  }
+
+  .product-right h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .product-right p {
+    margin: 10px 0;
+    line-height: 1.6;
+    padding: 0;
+  }
+
 }
+
+
 
 
 
