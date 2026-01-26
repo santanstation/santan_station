@@ -231,6 +231,10 @@ footer {
 /* MOBILE RESPONSIVE */
 @media (max-width: 768px) {
   .product-left{
+    height: auto;
+    overflow: visible;
+    padding-top: 40px;
+    padding-bottom: 40px;
     width: 100%;
     align-items: center;
     text-align: center;
@@ -242,7 +246,8 @@ footer {
   
   .product-split {
     flex-direction: column;
-    margin: 20px auto;
+    margin: 0;
+    margin-bottom: 20px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -254,17 +259,22 @@ footer {
     border-radius: 20px;
   }
 
-  .product-right {
+  .product-right p:first-child {
+    margin-top: 10px;
+  }
+  
+  .product-right h2{
     line-height: 1.4;
+    margin-top: 0;
     margin-bottom: 12px;
   }
 
   .product-logo {
-    width: 160px;
-    max-width: 70%;
+    width: 220px;
+    max-width: 80%;
     height: auto;
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto;
   }
 
   .location-section iframe {
@@ -273,6 +283,7 @@ footer {
 }
 
 }
+
 
 
 
