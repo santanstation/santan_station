@@ -202,5 +202,12 @@ footer {
     width: 100px;
     height: auto;
   }
+
+  .location-section iframe {
+  max-width: 900px;
+  width: 100%;
 }
+
+}
+
 
