@@ -231,12 +231,14 @@ footer {
 /* MOBILE RESPONSIVE */
 @media (max-width: 768px) {
   .product-left{
-    border-radius: 20px 0 0 20px;
-    min-height: 260px
-    background-size: 80%;
-    background-repeat: no-repeat;
+    width: 100%;
+    align-items: center;
+    padding: 40px 20px;
+    border-radius: 0 0 20px 20px;
+    background-size: auto;
     background-position: center;
     background-color: #fff;
+    
   }
   
   .product-split {
@@ -265,6 +267,7 @@ footer {
 }
 
 }
+
 
 
 
