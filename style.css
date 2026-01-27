@@ -164,6 +164,12 @@ footer {
   text-align: center;
 }
 
+.howto-section {
+  max-width: 1200px;
+  margin: 40px auto;
+  border-radius: 20px;
+}
+
 .howto-section h2 {
   color: #1b1916;
   margin-bottom: 10px;
@@ -283,6 +289,7 @@ footer {
 }
 
 }
+
 
 
 
