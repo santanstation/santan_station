@@ -240,7 +240,7 @@ footer {
 #about {
     width: calc(100% - 40px); /* sama macam Produk Utama */
     margin: 40px auto;
-    padding: 40px 20px;
+    padding: 50px 20px;
     border-radius: 20px;
   }
   /* hide image kiri */
@@ -289,6 +289,7 @@ footer {
 }
 
 }
+
 
 
 
