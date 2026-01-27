@@ -231,7 +231,12 @@ footer {
 /* MOBILE RESPONSIVE */
 /* MOBILE RESPONSIVE */
 @media (max-width: 768px) {
-
+#about {
+    width: calc(100% - 40px); /* sama macam Produk Utama */
+    margin: 40px auto;
+    padding: 40px 20px;
+    border-radius: 20px;
+  }
   /* hide image kiri */
   .product-left {
     display: none !important;
@@ -278,6 +283,7 @@ footer {
 }
 
 }
+
 
 
 
