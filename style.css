@@ -129,7 +129,7 @@ footer {
 
 .product-right {
   flex: 1;
-  background-color: #e7dccb; /* soft husk brown */
+  background-color: #f3ede2; /* soft husk brown */
   padding: 80px 60px;
 
   border-top-right-radius: 20px;   /* rounded edges */
@@ -160,7 +160,7 @@ footer {
 
 .howto-section {
   padding: 40px 20px;
-  background: #fdf6ee;
+  background: #f3ede2;
   text-align: center;
 }
 
@@ -217,7 +217,7 @@ footer {
 
 .location-section {
   padding: 50px 20px;
-  background: #fffaf3; /* warna lembut selari website */
+  background: #f3ede2; /* warna lembut selari website */
   text-align: center;
 }
 
